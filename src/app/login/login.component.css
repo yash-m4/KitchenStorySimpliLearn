@@ -1,0 +1,32 @@
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15mm;
+    padding-left: 155mm;
+    color: cadetblue;
+    
+}
+input{
+    width: 100mm;
+    height: 7mm;
+    padding-left: 60mm;
+    margin-left: 100mm;
+}
+#b1{
+    width: 25mm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5mm;
+    height: 10mm;
+    color: rgb(57, 38, 233);
+    margin-left: 140mm;
+    margin-right: 20mm;
+    background-color: cornsilk
+    
+}
+#b2{
+    width: 25mm;
+    height: 10mm;
+    font-size: 5mm;
+    font-family: monospace;
+    color: rgb(238, 46, 46);
+    background-color: cornsilk
+}

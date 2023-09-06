@@ -1,0 +1,74 @@
+#b{
+    width: 170mm;
+    height: 100mm;
+    margin-top: -50mm;
+    border-radius: 5mm;
+ }
+ 
+ h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7.5mm;
+   
+    color: cadetblue;
+    
+ }
+ h2{
+    font-size: 8mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ p{
+    font-size: 6mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #details{
+    margin-left: 200mm;
+    padding-top: 10mm;
+    
+ }
+ #bbutton{
+    position: relative;
+    top: -20mm;
+    margin-left: 230mm;
+    width: 30mm;
+    height: 15mm;
+    font-size: 5mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 139, 34);
+    background-color: rgb(233, 223, 209);
+    border-radius: 2.5mm;
+    
+ }
+ input{
+    width: 150mm;
+    height: 10mm;
+    margin-left: 100mm;
+    text-align: center;
+    font-size: 4mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+#sbutton{
+    position: relative;
+    bottom: -12.5mm;
+    left: -83mm;
+    width: 15mm;
+    height: 7.5mm;
+    font-size: 3mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 83, 211);
+    background-color: rgb(233, 223, 209);
+    border-radius: 2.5mm;
+ }
+#vbutton{
+    position: relative;
+    bottom: 20mm;
+    left: 2.5mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 3mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(207, 14, 0);
+    background-color: rgb(233, 223, 209);
+    border-radius: 2.5mm;
+}

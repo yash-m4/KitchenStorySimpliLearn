@@ -1,0 +1,20 @@
+<h1>Welcome, {{ username }}</h1>
+<form #productSearchForm="ngForm" (ngSubmit)="productSearch(productSearchForm)">
+    <input type="text" placeholder="Search Products" name="productSearched" ngModel>
+    <button id="sbutton" type="submit"><b>Search</b></button>
+</form>
+<br>
+<br>
+<button id="vbutton" (click)="ngOnInit()"><b>View All Products</b></button>
+
+<div  *ngFor="let product of products">
+    <div id="details">
+    <h2>{{product.productName}}</h2>
+    <p><b>Price:</b> {{ product.productPrice }}<b> .₹</b></p>
+    <p><b>Details:</b> {{ product.productDetails }}</p>
+</div>
+    <img id="b" [src]="getBase64Image(product.imageData)" alt="Product Image" /><br>
+    <button id="bbutton" (click)="buyThisId(product.product_id)"><b>Buy Now</b></button>
+
+
+</div>

@@ -1,0 +1,26 @@
+img{
+    border-radius: 5mm;
+    width: 110mm;
+    height: 100mm;
+    margin-right: 30mm;
+    margin-left: 30mm;
+    margin-top: -85mm;
+    opacity: 0.7;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#h2a{
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 20mm;
+    margin-left: 63mm;
+    margin-top: 20mm;
+    
+}
+#h2b{
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 20mm;
+    margin-left: 225mm;
+}

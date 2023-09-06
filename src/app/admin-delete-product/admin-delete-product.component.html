@@ -1,0 +1,12 @@
+<h1>Delete Products</h1>
+<div  *ngFor="let product of products">
+    <div id="details">
+    <h2>{{product.productName}}</h2>
+    <p><b>Price:</b> {{ product.productPrice }}<b> .₹</b></p>
+    <p><b>Details:</b> {{ product.productDetails }}</p>
+</div>
+    <img id="b" [src]="getBase64Image(product.imageData)" alt="Product Image" /><br>
+    <button (click)="deleteThisId(product.product_id)"><b>Delete</b></button>
+
+
+</div>

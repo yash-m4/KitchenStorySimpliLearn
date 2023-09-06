@@ -1,0 +1,50 @@
+#b{
+    width: 170mm;
+    height: 100mm;
+    margin-top: -50mm;
+    border-radius: 5mm;
+ }
+ 
+ h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10mm;
+   
+    color: cadetblue;
+    
+ }
+ h2{
+    font-size: 8mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+ }
+ p{
+    font-size: 6mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #details{
+    margin-left: 200mm;
+    padding-top: 10mm;
+    
+ }
+
+ input{
+    width: 100mm;
+    height: 10mm;
+    margin-left: 10mm;
+    text-align: center;
+    font-size: 4mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+button{
+    width: 30mm;
+    height: 15mm;
+    position: relative;
+    left: 50mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5mm;
+    color: rgb(79, 155, 3);
+    background-color: antiquewhite;
+    border-radius: 2.5mm;
+}

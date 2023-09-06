@@ -1,0 +1,27 @@
+#header{
+    background-color: 	#f5deb3;
+    height: 30mm;
+    
+}
+h1{
+   padding-left: 40mm;
+    margin-top: -2mm;
+    font-size: 20mm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: darkslategrey;
+    
+}
+h3{
+    font-size:5mm;
+    font-family: cursive;
+    padding-left: 195mm;
+    margin-top: -31mm;
+    color: darkslategrey;
+}
+#b{
+    width: 30mm;
+    height: 25mm;
+    position: relative;
+    top: -19mm;
+    left: 2.5mm;
+}

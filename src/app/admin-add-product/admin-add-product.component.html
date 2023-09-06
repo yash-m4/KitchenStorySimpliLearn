@@ -1,0 +1,13 @@
+<h2>Add Product Details</h2>
+<form #addProductForm="ngForm" (ngSubmit)="addProduct(addProductForm)">
+    <input type="text" ngModel name="productName" placeholder="Enter Product Name">,<br><br>
+    <input type="text" ngModel name="productPrice" placeholder="Enter Product Price"><br><br>
+    <input type="text" ngModel name="productDetails" placeholder="Enter Product Details"><br><br>
+    <input type="file" (change)="onImageChange($event)" accept=".jpg, .jpeg, .png"><br><br>
+    <button id="b1" type="submit">Add</button>
+    <button id="b2" type="reset">Clear</button>
+</form>
+<p>-------------------------------------------------------------------</p>
+<br>
+
+<div id="delete"><a routerLink="/admin-delete-product">Delete Product</a></div>

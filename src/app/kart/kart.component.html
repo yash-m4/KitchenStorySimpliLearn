@@ -1,0 +1,17 @@
+<h1> Thank you for choosing Kitchen Story {{ username }}</h1><br><br>
+<h2>Product Details Breakdown</h2>
+<div *ngIf="product">
+    <div id="details">
+        <h2>{{product.productName}}</h2>
+        <p><b>Price:</b> {{ product.productPrice }}<b> .₹</b></p>
+        <p><b>Details:</b> {{ product.productDetails }}</p>
+    </div>
+    <img id="b" [src]="getBase64Image(product.imageData)" alt="Product Image" />
+</div><br><br>
+<h3>Please Fillout The Payment Details to Confirm Your Order</h3>
+<form>
+    <input type="text" placeholder="Enter Card Number"><br><br>
+    <input type="text" placeholder="Enter CVV"><br><br>
+    <input type="text" placeholder="Enter ATM Pin"><br><br>
+    <button type="submit" (click)="logout()"><b>Pay Now</b></button>
+</form>

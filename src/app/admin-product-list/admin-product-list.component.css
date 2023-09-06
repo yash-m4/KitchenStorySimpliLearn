@@ -1,0 +1,31 @@
+
+    #b{
+        width: 170mm;
+        height: 100mm;
+        margin-top: -50mm;
+        border-radius: 5mm;
+     }
+     
+     h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15mm;
+        padding-left: 115mm;
+        color: cadetblue;
+        
+     }
+     h2{
+        font-size: 8mm;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     p{
+        font-size: 6mm;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     #details{
+        margin-left: 200mm;
+        padding-top: 10mm;
+        
+     }
+    
+ 

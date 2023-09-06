@@ -1,0 +1,10 @@
+<h2>Register Yourself</h2>
+<form #registerForm="ngForm" (ngSubmit)="registerUser(registerForm)">
+    <input type="text" ngModel name="username" placeholder="Create Username">,<br><br>
+    <input type="text" ngModel name="password" placeholder="Create Password"><br><br>
+    <input type="text" ngModel name="address" placeholder="Enter Your Address"><br><br>
+    <input type="text" ngModel name="phone" placeholder="Enter Your Phone No."><br><br>
+    <button id="b1" type="submit"><b>Register</b></button>
+    <button id="b2" type="reset"><b>Clear</b></button>
+
+</form>
